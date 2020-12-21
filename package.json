@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeders/seed.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.11.8",
-    "morgan": "^1.10.0",
-    "seed": "node seeders/seed.js"
+    "morgan": "^1.10.0"
+    
   }
 }
